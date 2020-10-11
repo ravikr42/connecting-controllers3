@@ -22,7 +22,7 @@ public class MessageForm {
         this.adjective = adjective;
     }
 
-    @Autowired
+
     public MessageForm(String animalName, String adjective) {
         this.animalName = animalName;
         this.adjective = adjective;
